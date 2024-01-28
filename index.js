@@ -23,7 +23,7 @@ const Student = mongoose.model("Student", studentSchema);
 
 
 app.get("/", (req, res) => {
-  res.send(" <h1> Welcome to the Student and Mentors page </h1> ");
+  res.send(" <h1> Welcome to Mentors-Student page </h1> ");
 });
 
 //Write API to create Mentor
